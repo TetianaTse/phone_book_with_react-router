@@ -1,0 +1,16 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.App h1 {
+  font-size: 40px;
+  margin: 0;
+  padding: 20px 10px;
+  background: #ffeb3b;
+  text-align: center;
+}
