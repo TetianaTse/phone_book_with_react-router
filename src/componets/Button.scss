@@ -24,7 +24,7 @@
     padding: 20px 50px;
   }
   ._list:hover, .active_list,
-  .active ._list {
+  .active ._list, ._edit:hover {
     background: #7fb8e1;
     color: #ffffff;
   }
