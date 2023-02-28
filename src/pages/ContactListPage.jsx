@@ -46,7 +46,7 @@ function ContactList({items, isOpenModal}) {
                     <ul className="list_delete">
                         {items.map(item => (
                         <li key={item.id}>
-                        <Link to={`/contact/${item.id}`}>
+                        <Link to={`/contact/${item.id}`} key={item.id}>
                             <Button value="Edit" className="btn _edit" data={item.id}/>
                         </Link>
                         </li>))}
